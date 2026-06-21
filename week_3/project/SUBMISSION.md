@@ -1,10 +1,6 @@
 # Week 3 Project Submission
 
-For Week 3, I upgraded my Week 2 ResearchBot into **Research Desk**. The Week 2
-version worked, but almost everything lived in one large Python file and every
-conversation disappeared when the program closed. This version separates the agent
-brain from the terminal interfaces and saves each conversation as JSON, so I can
-resume the same research later.
+For Week 3, I upgraded my Week 2 ResearchBot into **Research Desk**. This version separates the main agent from the terminal interfaces and saves each conversation as JSON, so I would be able to resume the same research later.
 
 The main `Agent` class owns the model loop, tool registry, session history, and tool
 dispatch. `REPLAgent` only handles terminal input and output, while `TUIAgent` sends
