@@ -1,0 +1,6 @@
+.env
+.venv/
+week_2/project/.env
+__pycache__/
+*.pyc
+.DS_Store
